@@ -1,4 +1,4 @@
-**Smart Task Assistant**  
+# Smart Task Assistant 
 A modular, Python-based personal assistant powered by LLM agents. It lets you search and scrape the web for information, manage your to‑do list, and orchestrate these capabilities through a root agent interface.
 
 ---
