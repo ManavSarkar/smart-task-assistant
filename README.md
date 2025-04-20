@@ -62,36 +62,10 @@ manavsarkar-smart-task-assistant/
 
 ## Usage
 
-Import and run agents from your own script or interactive shell:
+Run from the parent directory of the project:
 
-```python
-from manavsarkar_smart_task_assistant.agent import root_agent
-
-# Example: ask the root agent to search something
-response = root_agent.run("Find the latest news about AI breakthroughs")
-print(response)
-
-# Example: add to-do via root agent
-response = root_agent.run("Add to-do: Buy groceries")
-print(response)
-
-# List all to-dos
-todos = root_agent.run("List my to-dos")
-print(todos)
-```
-
-### Direct Sub‑Agent Usage
-
-You can also invoke sub‑agents directly:
-
-```python
-from manavsarkar_smart_task_assistant.agent import web_researcher_agent, todo_manager_agent
-
-# Use web researcher
-result = web_researcher_agent.run("Python 3.11 new features")
-
-# Use todo manager
-todo = todo_manager_agent.run("Add to-do: Write unit tests")
+```bash
+adk web
 ```
 
 ---
